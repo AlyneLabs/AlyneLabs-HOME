@@ -1,0 +1,31 @@
+.info-card {
+    background-color: var(--bg-card);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 2.5rem;
+    border-radius: 20px;
+    transition: all 0.3s;
+    height: 100%;
+}
+
+.info-card:hover {
+    border-color: var(--primary);
+    transform: translateY(-5px);
+}
+
+.card-icon {
+    font-size: 2.5rem;
+    color: var(--primary);
+    margin-bottom: 1.5rem;
+}
+
+.card-head {
+    font-size: 1.5rem;
+    margin: 0 0 1rem 0;
+    text-transform: uppercase;
+}
+
+.card-desc {
+    font-size: 1rem;
+    color: #888;
+    margin: 0;
+}

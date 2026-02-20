@@ -1,0 +1,51 @@
+.split-section {
+    display: flex;
+    align-items: center;
+    padding: 100px 5%;
+    gap: 5%;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.text-side { flex: 1; }
+.visual-side { flex: 1; display: flex; justify-content: center; }
+
+.text-side h2 {
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 0 1.5rem 0;
+    line-height: 1.1;
+}
+
+
+/* Animated Circle */
+.circle-box {
+    width: clamp(250px, 30vw, 400px);
+    height: clamp(250px, 30vw, 400px);
+    background-color: var(--bg-card);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.main-icon {
+    font-size: clamp(80px, 10vw, 150px);
+    color: var(--primary);
+    opacity: 0.9;
+    z-index: 2;
+}
+
+.pulse-ring {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--primary);
+    border-radius: 50%;
+    animation: pulse 3s infinite;
+}
