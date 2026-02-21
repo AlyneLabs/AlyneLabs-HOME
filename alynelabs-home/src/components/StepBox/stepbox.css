@@ -1,0 +1,35 @@
+.step-box {
+    text-align: center;
+    padding: 2rem 1.5rem;
+    border: 1px solid #222;
+    border-radius: 15px;
+    background: #080808;
+    transition: 0.3s;
+}
+
+.step-num {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--primary);
+    margin-bottom: 1rem;
+    font-family: var(--font-mono);
+    opacity: 0.8;
+}
+
+.step-box h4 {
+    text-transform: uppercase;
+    margin: 0 0 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+.step-box p {
+    font-size: 0.95rem;
+    color: #666;
+    margin: 0;
+}
+
+.active-step {
+    background: linear-gradient(to bottom right, #0a0a0a, #151515);
+    border: 1px solid var(--primary);
+    transform: scale(1.02);
+}

@@ -6,7 +6,6 @@ function Solution(){
         "Censorship-Resistant",
         "Infrastructure-Free",
         "Privacy-First Encryption",
-        "Scalable Architecture"
     ];
     return(
         <div className="split-section">
