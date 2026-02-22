@@ -1,0 +1,31 @@
+.dl-card {
+    background-color: var(--bg-card);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 3rem 2rem;
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+
+.dl-btn {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--primary);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    font-family: var(--font-main);
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    transition: background 0.3s;
+}
+
+.dl-btn:hover {
+    background-color: #ff4d5a;
+}
+
+.active-box{
+    border: solid 0.05rem var(--primary);
+}
