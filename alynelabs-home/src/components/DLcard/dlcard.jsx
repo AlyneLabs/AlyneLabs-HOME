@@ -21,17 +21,4 @@ const DLcardA = ({os, title, desc, path, rename, active}) => {
 
 }
 
-const DLcardB = ({title, desc, active}) => {
-
-    return(
-        <div className={`dl-card dlc-2 ${active?"active-box":""}`}>
-            <h1>{title}</h1>
-            <p style={{color: "#888", fontSize: "0.9rem"}}>{desc}</p>
-            
-        </div>
-    )
-
-}
-
-export {DLcardA,DLcardB};
-
+export default DLcardA

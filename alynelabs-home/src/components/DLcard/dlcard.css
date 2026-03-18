@@ -6,16 +6,6 @@
     transition: all 0.3s;
 }
 
-.dlc-2{
-    background-color: var(--bg-dark);
-    cursor: pointer;
-    
-}
-
-.dlc-2:hover{
-    color: #ff4d5a;
-}
-
 .dl-btn {
     width: 100%;
     padding: 1rem;
@@ -31,8 +21,6 @@
     font-size: 0.9rem;
     transition: background 0.3s;
 }
-
-
 
 .dl-btn:hover {
     background-color: #ff4d5a;

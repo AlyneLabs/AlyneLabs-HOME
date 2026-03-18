@@ -10,18 +10,18 @@ function ModuleDL(){
             
             <div className="download-grid">
                 <DLcardA 
-                    os = "APPLE"
+                    os = "IOS"
                     title = "ALYNENET"
                     desc = "Mobile Mnemonic Node for IOS."
-                    path = "./files/alynenet.ipa"
-                    rename = "alynenet.ipa"
+                    path = ""
+                    rename = ""
                 />
                 <DLcardA 
                     os = "ANDROID"
                     title = "ALYNENET"
                     desc = "Mobile Mnemonic Node for android OS."
-                    path = "/files/alynenet.apk"
-                    rename = "alynenet.apk"
+                    path = ""
+                    rename = ""
                     active = "true"
                 />                
             </div>
